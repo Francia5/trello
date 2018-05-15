@@ -25,3 +25,7 @@ Se replicara el tablero de la pagina de Trello mediante un flujo de versiones.
     
     *VERSIÓN 0.0.6 (EXTRA)*
     Poder agregar múltiples listas con tarjetas. Para esto, el formulario de "Añadir una lista" debe aparecer a la derecha de la lista anteriormente creada.
+
+    *** Ejemplo tablero
+
+    ![gif](assets/image/gif-trello.webp)

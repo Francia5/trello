@@ -1,0 +1,140 @@
+body{
+    background-color: #00bcd4;
+    margin: 0;
+    padding: 0;
+}
+nav  {
+    background-color: #026aa7;
+    width: 100%;
+    display: inline-block;
+    height: 40px;
+}
+.board {
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    left: 15px;
+}
+#logo {
+    display: inline-block;
+    width: 33%;
+    bottom: 10px;
+    
+}
+.superior-icons{
+    display: inline-block;
+    width: 13%;
+    position: relative;
+    left: 16em;
+   
+}
+.superior-icons > p {
+    display: inline-block;
+    background-color: #7baad1d1;
+    margin: 1px;
+    padding: 7px;
+    border-radius: 5px;
+    position: relative;
+}
+i {
+    color: white;
+}
+#logo img {
+    width: 19%;
+    position: relative;
+    left: 11em;
+    top: 7px;
+    opacity: .5;
+}
+
+.container {
+    border: 1px solid black;
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+}
+
+#see-menu {
+    left: 149%;
+    position: relative;
+    bottom: 22px;
+
+}
+
+#see-menu > button {
+    left: 65%;
+    position: relative;
+}
+
+#container-button > button {
+    top: 5px;
+    position: relative;
+    margin: 5px;
+}
+
+.line-right {
+    border-right: 1px solid gray; 
+}
+
+.search {
+    position: relative;
+    right: 35px;
+    transform: rotateY(180deg);
+}
+
+input[type=text]{
+    background-color: #66BFCE;
+    border: none;
+    border-radius: 3px;
+    bottom: 2px;
+    display: inline-block;
+    height: 29px;
+    margin: 0px 5px;
+    padding: 0;
+    position: relative;
+    width: 180px;
+}
+
+.box-button {
+    outline: 1px solid black;
+    display: block;
+    width: 15%;
+    background-color: gainsboro;
+    padding: 5px;
+
+}
+
+#input-list {
+    height: 15px;
+    padding: 5px;
+}
+
+#hide {
+    display: none;
+
+}
+
+#show {
+    display: block;
+
+}
+
+.box-form {
+    width: 15%;
+    background-color: #66BFCE;
+    opacity: 5%;
+    border-radius: 15%;
+}
+
+.board > button {
+    background-color: #66BFCE;
+    border: none;
+    border-radius: 3px;
+    bottom: 2px;
+    display: inline-block;
+    height: 29px;
+    margin: 0px 5px;
+    padding: 0;
+    position: relative;
+    width: 100px;
+}
