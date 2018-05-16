@@ -142,3 +142,11 @@ input[type=text]{
 .contentV2 {
     background-color: aliceblue;
 }
+
+.hide-form {
+    display: none;
+}
+
+.show-form {
+    display: block;
+}

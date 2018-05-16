@@ -29,6 +29,12 @@ safe.addEventListener("click", function() {
     var buttonText = document.createTextNode("Añadir una tarjeta");
     buttonAdd.appendChild(buttonText);
 
+    var hideForm = document.getElementById("hide");
+    hideForm.style.display = "none";
+    newCard.style.display = "block";
+    
+
+
     
     buttonAdd.addEventListener("click", function() {
         var contentV2 = document.createElement("div");
@@ -55,10 +61,14 @@ safe.addEventListener("click", function() {
         addb.appendChild(addText);
         close.appendChild(closeText);
         contentV2.setAttribute("class","contentV2");
+        
+        buttonAdd.style.display = "none";
+
 
         
     });
     
+
 });
 
 

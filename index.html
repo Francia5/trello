@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
     <nav>
         <div class="board">
             <button><i class="fab fa-trello"></i>Tableros</button>
@@ -37,16 +38,16 @@
         </article>
     </section>
     <section class="column">
-       <div class="principal">
+       <div id="principal">
             <div class="box-button" id="button-add">
                 <button id="addList">Añadir lista ... </button>
             </div>
-            <div class="box-form" id="hide">
+            <div class="box-form" id="hide" class="hide-form">
                 <input id="input-list" type="text" placeholder="Añadir una lista ...">
                 <input id="guardar" type="submit" value="Guardar">
                 <button>&times;</button>
             </div>
-            <div id="newContain"> 
+            <div id="newContain" class="show-form"> 
 
             </div>
          </div>    
