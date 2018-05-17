@@ -64,7 +64,21 @@ safe.addEventListener("click", function() {
         
         buttonAdd.style.display = "none";
 
+        contArea.focus();
 
+        addb.addEventListener("click", function() {
+            var valueCont = contArea.value;
+            var newP = document.createElement("p");
+            pText.appendChild(newP);
+            var textValue = document.createTextNode(valueCont);
+            newP.appendChild(textValue);
+            contArea.value = "";
+            
+            
+            
+
+            
+        });
         
     });
     
