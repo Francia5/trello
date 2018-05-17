@@ -24,9 +24,10 @@ safe.addEventListener("click", function() {
     // Se crea un boton para añadir la siguiente lista de tareas
     var buttonAdd = document.createElement("button");
     newCard.appendChild(buttonAdd);
+    buttonAdd.setAttribute("class","add-card");
     buttonAdd.type = "submit";
     // Texto del boton
-    var buttonText = document.createTextNode("Añadir una tarjeta");
+    var buttonText = document.createTextNode("Añadir una tarjeta ...");
     buttonAdd.appendChild(buttonText);
 
     var hideForm = document.getElementById("hide");
@@ -42,8 +43,10 @@ safe.addEventListener("click", function() {
         var contArea = document.createElement("textarea");
         // Boton para Añadir
         var addb = document.createElement("button");
+        addb.setAttribute("class", "but-add");
         // Boton para cerrar
         var close = document.createElement("button");
+        close.setAttribute("class", "x-close");
         // Icono de tres puntos
         var dots = document.createElement("i");
         // Crear nodo texto para el Boton de Añadir

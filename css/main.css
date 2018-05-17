@@ -1,10 +1,10 @@
 body{
-    background-color: #0f3136;
+    background-color: rgb(0, 121, 191);
     margin: 0;
     padding: 0;
 }
 nav  {
-    background-color: #254e68;
+    background-color: #026aa7;
     width: 100%;
     display: inline-block;
     height: 40px;
@@ -28,6 +28,16 @@ nav  {
     left: 16em;
    
 }
+
+.superior-icons > p :hover {
+    color: midnightblue;
+}
+
+#laboratoria {
+    font-size: 1em;
+    font-weight: bold;
+}
+
 .superior-icons > p {
     display: inline-block;
     background-color: #7baad1d1;
@@ -35,6 +45,7 @@ nav  {
     padding: 7px;
     border-radius: 5px;
     position: relative;
+
 }
 i {
     color: white;
@@ -48,11 +59,11 @@ i {
 }
 
 .container {
-    border: 1px solid black;
     display: inline-block;
     width: 50%;
     height: 40px;
 }
+ 
 
 #see-menu {
     left: 149%;
@@ -69,11 +80,10 @@ i {
 #container-button > button {
     top: 5px;
     position: relative;
-    margin: 5px;
-}
-
-.line-right {
-    border-right: 1px solid gray; 
+    margin: 10px;
+    border: none;
+    background-color:  rgb(0, 121, 191);
+    color:  aliceblue;
 }
 
 .search {
@@ -83,7 +93,7 @@ i {
 }
 
 input[type=text]{
-    background-color: #66BFCE;
+    background-color: #7baad1d1;
     border: none;
     border-radius: 3px;
     bottom: 2px;
@@ -115,6 +125,7 @@ input[type=text]{
 #input-list {
     height: 15px;
     padding: 5px;
+    background-color: #026aa7;
 }
 
 #hide {
@@ -129,13 +140,16 @@ input[type=text]{
 
 .box-form {
     width: 15%;
-    background-color: #66BFCE;
-    opacity: 5%;
-    border-radius: 15%;
+    background-color:  #e2e4e6;
+    opacity: 0.8%;
+    border-radius: 6%;
+    height: 70px;
+    left:10px;
+    position: relative;
 }
 
 .board > button {
-    background-color: #66BFCE;
+    background-color:  #7baad1d1;
     border: none;
     border-radius: 3px;
     bottom: 2px;
@@ -145,10 +159,15 @@ input[type=text]{
     padding: 0;
     position: relative;
     width: 100px;
+    color: aliceblue;
 }
 
 .contentV2 {
-    background-color: aliceblue;
+    background-color:  #e2e4e6;
+    width: 220px;
+    left: 10px;
+    position: relative;
+    border-radius: 3%;
 }
 
 .hide-form {
@@ -167,4 +186,116 @@ input[type=text]{
     transform: rotateY(180deg);
     position: relative;
     right: 35px;
+}
+
+#addList {
+    opacity: 0.8;
+    background-color: #026aa7;
+    position: relative;
+    color: aliceblue;
+    text-orientation: initial;
+}
+
+#input-list {
+    background-color: rgba(0,0,0,.05);
+    border: #aaa;
+    top: 5px;
+}
+
+#guardar {
+    top: 8px;
+    left: 6px;
+    position: relative;
+    border: none;
+    background-color: #5aac44;
+    color: #fff;
+    box-shadow: 0 1px 0 #519839;
+    width: 70px;
+    height: 28px;
+}
+
+.close{
+    top: 10px;
+    position: relative;
+    border: none;
+    background-color: #e2e4e6;
+    left: 10px;
+    font-size: 20px;
+
+}
+
+#newContain > p {
+    background-color: #e2e4e6;
+    width: 230px;
+    color:  #333;
+    left: 10px;
+    position: relative;
+    border: none;
+    height: 35px;
+
+} 
+
+.add-card {
+    border-radius: 0 0 3px 3px;
+    color: #838c91;
+    background-color: #e2e4e6;
+    border: none;
+    left: 10px;
+    position: relative;
+    bottom: 20px;
+    width: 230px;
+    height: 35px;
+    text-decoration: underline;
+    text-align: left;
+
+
+}
+
+textarea {
+    width: 180px;
+    height: 70px;
+    left: 15px;
+    position: relative;
+
+}
+
+.contentV2 > p {
+    position: relative;
+    left: 15px;
+    top: 5px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #333;
+    font-family: font: 14px Helvetica Neue,Arial,Helvetica,sans-serif;
+}
+
+.contentV2 > button {
+    border: none;
+    position: relative;
+    left: 15px;
+    margin: 5px;
+
+
+}
+
+.but-add {
+    width: 70px;
+    height: 28px;
+    background-color:  #5aac44;
+    bottom: 7px;
+
+}
+
+.x-close {
+    background-color: #e2e4e6;
+    width: 30px;
+    height: 28px;
+    font-size: 1.5em;
+    bottom: 5px;
+}
+
+#see-menu > button, .s-menu {
+    background-color:  rgb(0, 121, 191);
+    border: none;
+    color:  #fff;
 }

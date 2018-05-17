@@ -13,7 +13,7 @@
 
     <nav>
         <div class="board">
-            <button><i class="fab fa-trello"></i>Tableros</button>
+            <button class="button-tab"><i class="fab fa-trello"></i> Tableros </button>
             <input type="text">
             <i class="fas fa-search search, lupa"></i>
         </div>
@@ -28,13 +28,13 @@
     </nav>
     <section class="container">
         <article class="contain-button" id="container-button">
-            <button> Laboratoria </button>
-            <button class="line-right"><i class="far fa-star"></i></button>
-            <button class="line-right"> Personal </button>
-            <button> Privado </button>
+            <button id="laboratoria"> Laboratoria </button>
+            <button><i class="far fa-star"></i></button>
+            <button id="lines"> Personal </button>
+            <button><i class="fas fa-lock"></i> Privado </button>
         </article>
         <article class="container" id="see-menu">
-            <button><i class="fa fa-ellipsis-h"></i><a href="#"> Mostrar Menu </a></button>
+            <button><i class="fa fa-ellipsis-h"></i><a href="#" class="s-menu">  Mostrar Menu </a></button>
         </article>
     </section>
     <section class="column">
@@ -45,7 +45,7 @@
             <div class="box-form" id="hide" class="hide-form">
                 <input id="input-list" type="text" placeholder="Añadir una lista ...">
                 <input id="guardar" type="submit" value="Guardar">
-                <button>&times;</button>
+                <button class="close">&times;</button>
             </div>
             <div id="newContain" class="show-form"> 
 
