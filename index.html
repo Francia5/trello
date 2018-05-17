@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <nav>
+    <nav> <!-- Inicia Barra de Navegacion -->
         <div class="board">
             <button class="button-tab"><i class="fab fa-trello"></i> Tableros </button>
             <input type="text">
@@ -21,25 +21,25 @@
             <img src="assets/image/trello-logo.svg" alt="logo-trello">
         </div>
         <div class="superior-icons">
-            <p class="iconos"><i class="fa fa-plus"></i></p>
-            <p class="iconos"><i class="fa fa-info-circle"></i></p>
-            <p class="iconos"><i class="fa fa-bell"></i></p>
+            <p><i class="fa fa-plus"></i></p>
+            <p><i class="fa fa-info-circle"></i></p>
+            <p><i class="fa fa-bell"></i></p>
         </div>
-    </nav>
-    <section class="container">
+    </nav>  <!-- Termina Barra de navegacion-->
+    <section class="container">  <!-- Inicia zona de botones de tableros -->
         <article class="contain-button" id="container-button">
             <button id="laboratoria"> Laboratoria </button>
             <button><i class="far fa-star"></i></button>
-            <button id="lines"> Personal </button>
+            <button> Personal </button>
             <button><i class="fas fa-lock"></i> Privado </button>
         </article>
         <article class="container" id="see-menu">
             <button><i class="fa fa-ellipsis-h"></i><a href="#" class="s-menu">  Mostrar Menu </a></button>
         </article>
-    </section>
-    <section class="column">
+    </section> <!-- Termina area de botones para Tableros -->
+    <section>  <!-- Inicio de contenedor global para las versiones de las cajas -->
        <div id="principal" class="first-box">
-            <div class="box-button" id="button-add">
+            <div class="box-button" id="button-add"> 
                 <button id="addList">Añadir lista ... </button>
             </div>
             <div class="box-form" id="hide" class="hide-form">
@@ -47,10 +47,10 @@
                 <input id="guardar" type="submit" value="Guardar">
                 <button class="close">&times;</button>
             </div>
-            <div id="newContain" class="show-form"> 
+            <div id="newContain" class="show-form"> <!-- Inicio de Div vacio para el maquetado en js -->
 
             </div>
-         </div>    
+         </div>   <!-- Termina contenedor global para versiones en cajas -->
     </section>       
 
     <script src="js/app.js"></script>

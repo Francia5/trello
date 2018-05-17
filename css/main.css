@@ -3,24 +3,60 @@ body{
     margin: 0;
     padding: 0;
 }
+
 nav  {
     background-color: #026aa7;
-    width: 100%;
     display: inline-block;
     height: 40px;
+    width: 100%;  
 }
+
 .board {
     display: inline-block;
-    width: 33%;
-    position: relative;
     left: 15px;
-}
-#logo {
-    display: inline-block;
+    position: relative;
     width: 33%;
-    bottom: 10px;
-    
 }
+
+.board > button {
+    background-color:  #7baad1d1;
+    border: none;
+    border-radius: 3px;
+    bottom: 2px;
+    color: aliceblue;
+    display: inline-block;
+    height: 29px;
+    margin: 0px 5px;
+    padding: 0;
+    position: relative;
+    width: 100px;   
+}
+
+.board .lupa {
+    position: relative;
+    right: 35px;
+    transform: rotateY(180deg);
+}
+
+#logo {
+    bottom: 10px;
+    display: inline-block;
+    width: 33%;  
+}
+
+#logo img {
+    left: 11em;
+    opacity: .5;
+    position: relative;
+    top: 7px;
+    width: 19%;
+}
+
+i {
+    color: white;
+}
+
+
 .superior-icons{
     display: inline-block;
     width: 13%;
@@ -33,11 +69,6 @@ nav  {
     color: midnightblue;
 }
 
-#laboratoria {
-    font-size: 1em;
-    font-weight: bold;
-}
-
 .superior-icons > p {
     display: inline-block;
     background-color: #7baad1d1;
@@ -47,49 +78,79 @@ nav  {
     position: relative;
 
 }
-i {
-    color: white;
-}
-#logo img {
-    width: 19%;
-    position: relative;
-    left: 11em;
-    top: 7px;
-    opacity: .5;
-}
 
 .container {
     display: inline-block;
-    width: 50%;
     height: 40px;
+    width: 50%;
+    
 }
- 
+
+#container-button > button {
+    background-color:  rgb(0, 121, 191);
+    border: none;
+    color:  aliceblue;
+    margin: 10px;
+    position: relative;
+    top: 5px; 
+}
+
+#laboratoria {
+    font-size: 1em;
+    font-weight: bold;
+}
 
 #see-menu {
+    bottom: 22px;
     left: 149%;
     position: relative;
-    bottom: 22px;
-
 }
+
 
 #see-menu > button {
     left: 65%;
     position: relative;
 }
 
-#container-button > button {
-    top: 5px;
-    position: relative;
-    margin: 10px;
-    border: none;
+#see-menu > button, .s-menu {
     background-color:  rgb(0, 121, 191);
-    color:  aliceblue;
+    border: none;
+    color:  #fff;
 }
 
-.search {
+.box-button {
+    display: block;
+    padding: 5px;
+    width: 15%;
+}
+
+.box-button > button {
+    background-color: white;
+    border-radius: 6%;
+    border: none;
+    height: 35px;
+    opacity: 0.5;
+    text-align: center;
+    width: 280px;
+}
+
+#addList {
+    background-color: #026aa7;
+    color: aliceblue;
+    opacity: 0.8;
     position: relative;
-    right: 35px;
-    transform: rotateY(180deg);
+    text-orientation: initial;
+}
+
+.box-form {
+    
+    background-color:  #e2e4e6;
+    border-radius: 6%;
+    height: 70px;
+    left:10px;
+    opacity: 0.8%;
+    position: relative;
+    width: 15%;
 }
 
 input[type=text]{
@@ -105,27 +166,35 @@ input[type=text]{
     width: 180px;
 }
 
-.box-button {
-    display: block;
-    width: 15%;
-    padding: 5px;
-}
 
-.box-button > button {
-    background-color: white;
-    border-radius: 6%;
-    height: 35px;
-    opacity: 0.5;
-    text-align: center;
-    width: 280px;
+#guardar {
+    top: 8px;
+    left: 6px;
+    position: relative;
     border: none;
-
+    background-color: #5aac44;
+    color: #fff;
+    box-shadow: 0 1px 0 #519839;
+    width: 70px;
+    height: 28px;
 }
 
 #input-list {
     height: 15px;
     padding: 5px;
-    background-color: #026aa7;
+    background-color: rgba(0,0,0,.05);
+    border: #aaa;
+    top: 5px;
+}
+
+.close{
+    top: 10px;
+    position: relative;
+    border: none;
+    background-color: #e2e4e6;
+    left: 10px;
+    font-size: 20px;
+
 }
 
 #hide {
@@ -138,29 +207,6 @@ input[type=text]{
 
 }
 
-.box-form {
-    width: 15%;
-    background-color:  #e2e4e6;
-    opacity: 0.8%;
-    border-radius: 6%;
-    height: 70px;
-    left:10px;
-    position: relative;
-}
-
-.board > button {
-    background-color:  #7baad1d1;
-    border: none;
-    border-radius: 3px;
-    bottom: 2px;
-    display: inline-block;
-    height: 29px;
-    margin: 0px 5px;
-    padding: 0;
-    position: relative;
-    width: 100px;
-    color: aliceblue;
-}
 
 .contentV2 {
     background-color:  #e2e4e6;
@@ -176,52 +222,6 @@ input[type=text]{
 
 .show-form {
     display: block;
-}
-
-.first-box {
-
-}
-
-.board .lupa {
-    transform: rotateY(180deg);
-    position: relative;
-    right: 35px;
-}
-
-#addList {
-    opacity: 0.8;
-    background-color: #026aa7;
-    position: relative;
-    color: aliceblue;
-    text-orientation: initial;
-}
-
-#input-list {
-    background-color: rgba(0,0,0,.05);
-    border: #aaa;
-    top: 5px;
-}
-
-#guardar {
-    top: 8px;
-    left: 6px;
-    position: relative;
-    border: none;
-    background-color: #5aac44;
-    color: #fff;
-    box-shadow: 0 1px 0 #519839;
-    width: 70px;
-    height: 28px;
-}
-
-.close{
-    top: 10px;
-    position: relative;
-    border: none;
-    background-color: #e2e4e6;
-    left: 10px;
-    font-size: 20px;
-
 }
 
 #newContain > p {
@@ -247,8 +247,6 @@ input[type=text]{
     height: 35px;
     text-decoration: underline;
     text-align: left;
-
-
 }
 
 textarea {
@@ -275,7 +273,6 @@ textarea {
     left: 15px;
     margin: 5px;
 
-
 }
 
 .but-add {
@@ -294,8 +291,3 @@ textarea {
     bottom: 5px;
 }
 
-#see-menu > button, .s-menu {
-    background-color:  rgb(0, 121, 191);
-    border: none;
-    color:  #fff;
-}
