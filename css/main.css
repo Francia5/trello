@@ -168,34 +168,45 @@ input[type=text]{
 
 
 #guardar {
-    top: 8px;
+    background-color: #5aac44;
+    border: none;
+    box-shadow: 0 1px 0 #519839;
+    color: #fff;
+    height: 28px;
     left: 6px;
     position: relative;
-    border: none;
-    background-color: #5aac44;
-    color: #fff;
-    box-shadow: 0 1px 0 #519839;
+    top: 8px;
     width: 70px;
-    height: 28px;
+    
 }
 
 #input-list {
-    height: 15px;
-    padding: 5px;
     background-color: rgba(0,0,0,.05);
     border: #aaa;
+    height: 15px;
+    padding: 5px;
     top: 5px;
 }
 
 .close{
-    top: 10px;
-    position: relative;
-    border: none;
     background-color: #e2e4e6;
+    border: none;
     left: 10px;
     font-size: 20px;
-
+    position: relative;
+    top: 10px;
 }
+
+#newContain > p {
+    background-color: #e2e4e6;
+    border: none;
+    color:  #333;
+    left: 10px;
+    height: 35px;
+    position: relative;
+    width: 230px;
+
+} 
 
 #hide {
     display: none;
@@ -210,10 +221,31 @@ input[type=text]{
 
 .contentV2 {
     background-color:  #e2e4e6;
-    width: 220px;
+    border-radius: 3%;
     left: 10px;
     position: relative;
-    border-radius: 3%;
+    width: 220px;
+    
+}
+
+.contentV2 > p {
+    color: #333;
+    font-weight: 400;
+    font-family: font: 14px Helvetica Neue,Arial,Helvetica,sans-serif;
+    left: 15px;
+    line-height: 18px;
+    position: relative;
+    top: 5px;
+    
+
+}
+
+.contentV2 > button {
+    border: none;
+    left: 15px;
+    margin: 5px;
+    position: relative;
+
 }
 
 .hide-form {
@@ -224,70 +256,41 @@ input[type=text]{
     display: block;
 }
 
-#newContain > p {
-    background-color: #e2e4e6;
-    width: 230px;
-    color:  #333;
-    left: 10px;
-    position: relative;
-    border: none;
-    height: 35px;
-
-} 
 
 .add-card {
-    border-radius: 0 0 3px 3px;
-    color: #838c91;
     background-color: #e2e4e6;
     border: none;
-    left: 10px;
-    position: relative;
+    border-radius: 0 0 3px 3px;
     bottom: 20px;
-    width: 230px;
+    color: #838c91;
+    left: 10px;
     height: 35px;
+    position: relative;
     text-decoration: underline;
     text-align: left;
+    width: 230px;
 }
 
 textarea {
-    width: 180px;
     height: 70px;
     left: 15px;
     position: relative;
-
-}
-
-.contentV2 > p {
-    position: relative;
-    left: 15px;
-    top: 5px;
-    line-height: 18px;
-    font-weight: 400;
-    color: #333;
-    font-family: font: 14px Helvetica Neue,Arial,Helvetica,sans-serif;
-}
-
-.contentV2 > button {
-    border: none;
-    position: relative;
-    left: 15px;
-    margin: 5px;
+    width: 180px;
 
 }
 
 .but-add {
-    width: 70px;
-    height: 28px;
     background-color:  #5aac44;
     bottom: 7px;
-
+    height: 28px;
+    width: 70px;
 }
 
 .x-close {
     background-color: #e2e4e6;
-    width: 30px;
+    bottom: 5px;
     height: 28px;
     font-size: 1.5em;
-    bottom: 5px;
+    width: 30px;
 }
 
